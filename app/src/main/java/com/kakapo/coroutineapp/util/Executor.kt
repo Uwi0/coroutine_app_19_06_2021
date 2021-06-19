@@ -1,4 +1,5 @@
 package com.kakapo.coroutineapp.util
 
-class Executor {
-}
+import java.util.concurrent.Executors
+
+val BACKGROUND = Executors.newFixedThreadPool(2)
